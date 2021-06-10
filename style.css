@@ -1,0 +1,25 @@
+body {
+    font-family: system-ui;
+    background: #3b5998;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+  
+#input {
+    font-family: system-ui;
+    width: 350px;
+    padding: 0 50px 0 50px; 
+    text-align: center;
+}
+  
+#placeholder{
+    cursor: pointer;
+}
+  
+.hidden {
+    display: none;
+}
+  
