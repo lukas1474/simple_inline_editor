@@ -1,4 +1,4 @@
-# simple_inline_editor
+# Simple inline editor
 
 ## Usage
 
