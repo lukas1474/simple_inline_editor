@@ -17,8 +17,8 @@ const changeText = () => {
 }
 
 input.addEventListener('focusout', () => changeText());
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
+input.addEventListener("keyup", (event) => {
+  if (event.key === 'Enter') {
     event.preventDefault();
     changeText();
   }
